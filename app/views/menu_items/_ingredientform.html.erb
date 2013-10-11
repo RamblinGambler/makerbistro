@@ -1,0 +1,7 @@
+<%= form_for(@menu_item, @ingredient) do |f| %>
+  <%= f.label 'Name' %>
+  <%= f.text_field :name %>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
